@@ -4,18 +4,21 @@
   --left-button-hover-color: rgba(161, 11, 11, 0.3);
   --right-bg-color: rgba(43, 43, 43, 0.8);
   --right-button-hover-color: rgba(92, 92, 92, 0.3);
-  --hover-width: 75%;
-  --other-width: 25%;
+  --hover-width: 80%;
+  --other-width: 20%;
   --speed: 1000ms;
 }
 
+html {
+  overflow:auto;
+}
 html, body {
   padding:0;
   margin:0;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   width: 100%;
-  height: 100%;
-  overflow-x: hidden;
+  height: 200%;
+  /* overflow: auto; */
 }
 .banner{
   height: 100vh;
@@ -24,8 +27,7 @@ html, body {
   align-items: center;
   justify-content: center;
 }
-
-h1 {
+.split h1 {
   padding-top: 20px;
   padding-bottom: -90px;
   font-size: 3.2rem;
@@ -34,7 +36,6 @@ h1 {
   text-align: center;
   white-space: nowrap;
 }
-
 
 .split.left .button:hover {
   background-color: var(--left-button-hover-color);
@@ -50,6 +51,7 @@ h1 {
   position: relative;
   width: 100%;
   height: 100%;
+  /* border-radius: 55px; */
   background: var(--container-bg-color);
 }
 
@@ -113,12 +115,12 @@ h1 {
   width: var(--other-width);
 }
 
-.hover-right .left:before {
+.-right .left:before {
   z-index: 2;
 }
 
 @media(max-width: 800px) {
-  h1 {
+.split  h1 {
     font-size: 2rem;
   }
 
@@ -132,7 +134,6 @@ h1 {
     top: 70%;
   }
 }
-
 
 .our-team{
     text-align: center;
