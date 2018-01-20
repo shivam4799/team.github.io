@@ -62,8 +62,9 @@ h1 {
 
 .split.left {
   left:0;
-  background: url('https://image.ibb.co/m56Czw/designer.jpg') center center no-repeat;
-  background-size: cover;
+  /* background: url('https://image.ibb.co/m56Czw/designer.jpg') center center no-repeat; */
+  background: url('14.jpg') repeat;
+  /* background-size: cover; */
 }
 
 .split.left:before {
@@ -76,8 +77,9 @@ h1 {
 
 .split.right {
   right:0;
-  background: url('https://image.ibb.co/m3ZbRb/programmer.png') center center no-repeat;
-  background-size: cover;
+  background: url('6.jpg') repeat;
+  /* background: url('https://image.ibb.co/m3ZbRb/programmer.png') center center no-repeat; */
+  /* background-size: cover; */
 }
 
 .split.right:before {
