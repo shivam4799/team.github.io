@@ -149,15 +149,15 @@ h1 {
     border-radius: 50%;s
     transition: all 0.75s ease 0.01s; */
 }
-.our-team:hover img{ opacity: 0.5; }
+.our-team:hover img{ opacity: 0.7; }
 .our-team .team-content{
-  /* border: 3px green solid; */
     padding: 10px 15px 10px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    width: 25%;
+    top: 62%;
+    left: 48%;
     opacity: 0;
-    transform: rotate(45deg) translate(-50%, -50%);
+    transform: rotate(30deg) translate(-50%, -50%);
     transform-origin: 0 0;
     transition: all 0.65s ease 0s;
 }
@@ -222,7 +222,7 @@ h1 {
     display: block;
     padding: 5px 10px;
     background: #95ccea;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 700;
     color: #000;
     text-transform: capitalize;
@@ -248,16 +248,18 @@ h1 {
     border-radius: 50%;
   }
   .our-team .team-content{
+      width: 35%;
       padding: 10px 10px 10px;
       position: absolute;
-      top: 50%;
-      left: 50%;
+      top: 65%;
+      left: 48%;
       opacity: 0;
-      transform: rotate(45deg) translate(-50%, -50%);
+      transform: rotate(30deg) translate(-50%, -50%);
       transform-origin: 0 0;
       transition: all 0.65s ease 0s;
   }
   .our-team .title{
+    opacity: 1;
       font-size: 15px;
       font-weight: 400;
       color: #fff;
@@ -265,7 +267,9 @@ h1 {
       margin: 0;
   }
   .our-team .post{
+    opacity: 0.75;
       display: block;
+
       padding: 5px 10px;
       background: #95ccea;
       font-size: 10px;
